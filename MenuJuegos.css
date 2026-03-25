@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image:url("./abstract-technology-digital-futuristic-concept-glow-neon-colors-lines-with-lighting-effect-perspective-on-dark-blue-background-vector.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;  
+    align-items:center;   
+}
+
+.contenedorCentrado{
+    border: 5px solid red;
+    border-radius: 10px;
+    flex-direction: column;
+    min-height: 750px;
+    background: rgba(0,0,0,0.7);
+    width: 80%;
+}
+
+.contenedorJuegos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.rps{
+    color: #22c55e;;
+    font-size: 120px;
+    padding: 20px 0 20px 0;
+}
+.adivinanza{
+    color: #facc15;
+    font-size: 120px;
+    padding: 20px 0 20px 0;
+}
+.calculadora{
+    color: #3b82f6;
+    font-size: 120px;
+    padding: 20px 0 20px 0;
+}
+
+h1{
+    text-align: center;
+    color: #e5e7eb;
+    margin-top: 15px;
+    font-size: 75px;
+}
+h2{
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: #e5e7eb;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.card{
+    padding: 15px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p{
+    color: #e5e7eb;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}

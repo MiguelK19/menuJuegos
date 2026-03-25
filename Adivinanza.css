@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image:url("./abstract-technology-digital-futuristic-concept-glow-neon-colors-lines-with-lighting-effect-perspective-on-dark-blue-background-vector.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height:100vh;
+}
+
+.contenedorCentrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 5px solid red;
+    border-radius: 10px;
+    min-height: 600px;
+    background: rgba(0,0,0,0.7);
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+    width: 80%;
+}
+p{
+    text-align: center;
+    font-size: 100px;
+    color: #e5e7eb;
+}
+button{
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botonMenu{
+    color: #e5e7eb;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    font-size: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+#mensaje, #mensajeIntentos{
+    font-size: 45px;
+}
